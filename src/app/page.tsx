@@ -140,11 +140,15 @@ const ContactSection = () => (
     <p className="text-base sm:text-lg text-slate-600 mb-8 max-w-xl mx-auto">
       I&apos;m currently looking for new opportunities and my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll get back to you!
     </p>
-    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-      <a href="mailto:arunsingh09827@gmail.com" className="bg-slate-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-gray-600 transition-colors">
-        Mail me
-      </a>
-    </div>
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pb-20">
+  <a
+    href="mailto:arunsingh09827@gmail.com"
+    className="bg-slate-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-gray-600 transition-colors"
+  >
+    Mail me
+  </a>
+</div>
+
   </section>
 );
 
