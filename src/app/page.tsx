@@ -124,7 +124,7 @@ const ProjectsSection = () => (
             <span className="bg-slate-200 text-slate-700 text-sm font-semibold px-3 py-1 rounded-full">Recharts</span>
           </div>
           <div className="mt-6 flex items-center space-x-4">
-            <a href="https://repoll-mu.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-semibold hover:underline">Live Demo</a>
+            <a href="https://repoll.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-semibold hover:underline">Live Demo</a>
             <a href="https://github.com/Arun-s21/repoll" target="_blank" rel="noopener noreferrer" className="text-slate-500 font-semibold hover:underline">GitHub Repo</a>
           </div>
         </div>
