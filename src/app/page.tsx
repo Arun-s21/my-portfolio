@@ -68,7 +68,7 @@ const SkillsSection = () => {
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12">
         <a
-          href="https://drive.google.com/file/d/10Btj8o7kr8uGu_LDNVvLRy2Lt_uXOKOV/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1iYRkDMKbIwyDSrTdbJLd_2PuvN51u3UP/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-slate-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-slate-700 transition-colors"
@@ -87,6 +87,15 @@ const ProjectsSection = () => (
     <div className="grid gap-8 sm:grid-cols-2">
       {/* Project Card */}
       {[
+        {
+          title: 'OrbitalEye',
+          desc: 'A real-time satellite collision alert system, triggering warnings when two satellites approach within a predefined threshold',
+          img: '/orbitaleye.png',
+          tech: ['React', 'Satellite.js', 'Three.js'],
+          live: 'https://orbitaleye-alpha.vercel.app',
+          repo: 'https://github.com/Arun-s21/orbitaleye',
+        },
+
         {
           title: 'GhostDrop',
           desc: 'A full-stack anonymous messaging application where users receive feedback through unique, shareable links.',
