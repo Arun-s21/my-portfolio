@@ -68,7 +68,7 @@ const SkillsSection = () => {
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12">
         <a
-          href="https://drive.google.com/file/d/1iYRkDMKbIwyDSrTdbJLd_2PuvN51u3UP/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1kXTmbmLZKtSQlInEJThyC3Jwj---EEzg/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-slate-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-slate-700 transition-colors"
