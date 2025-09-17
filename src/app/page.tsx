@@ -1,14 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-// --- Reusable Component for Section Titles ---
+
 const SectionTitle = ({ children }: { children: React.ReactNode }) => (
   <h2 className="text-2xl sm:text-3xl font-bold text-slate-800 mb-8 sm:mb-12 text-center">
     {children}
   </h2>
 );
 
-// --- Hero Section Component ---
 const HeroSection = () => (
   <section
     id="hero"
@@ -37,7 +36,7 @@ const HeroSection = () => (
   </section>
 );
 
-// --- About Me Section Component ---
+
 const AboutSection = () => (
   <section id="about" className="py-12 sm:py-16 md:py-24 px-4">
     <SectionTitle>About Me</SectionTitle>
@@ -80,7 +79,6 @@ const SkillsSection = () => {
   );
 };
 
-// --- Projects Section Component ---
 const ProjectsSection = () => (
   <section id="projects" className="py-12 sm:py-16 md:py-24 px-4">
     <SectionTitle>Check Out My Latest Work</SectionTitle>
@@ -142,7 +140,7 @@ const ProjectsSection = () => (
   </section>
 );
 
-// --- Contact Section Component ---
+
 const ContactSection = () => (
   <section id="contact" className="py-12 sm:py-16 md:py-24 px-4 text-center">
     <SectionTitle>Get In Touch</SectionTitle>
